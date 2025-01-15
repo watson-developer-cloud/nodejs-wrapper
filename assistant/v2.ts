@@ -27,7 +27,7 @@ import {
   getAuthenticatorFromEnvironment,
   validateParams,
 } from 'ibm-cloud-sdk-core';
-import { getSdkHeaders } from '../lib/common';
+import { getSdkHeaders } from '../lib/common.ts';
 
 /**
  * The IBM&reg; watsonx&trade; Assistant service combines machine learning, natural language understanding, and an
